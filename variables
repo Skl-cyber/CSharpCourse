@@ -1,0 +1,32 @@
+
+using System.Data;
+using System;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+       int firstNumber =0;
+       int secondNumber =0;
+       int thirdNumber =0;
+       int result=0;
+
+
+       Console.Write("please enter the first Number :");
+       firstNumber=int.Parse(Console.ReadLine());
+
+       Console.Write("please enter the second Number :");
+       secondNumber=int.Parse(Console.ReadLine());
+
+       Console.Write("please enter the third Number :");
+       thirdNumber=int.Parse(Console.ReadLine());
+       result=firstNumber*secondNumber*thirdNumber;
+
+
+       Console.Write("Multiplication result is :"+result);
+  
+
+        }
+                   
+}
