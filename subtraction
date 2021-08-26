@@ -1,0 +1,33 @@
+using System;
+ 
+namespace subtraction
+{ 
+    class Program
+    {
+         static void Main(string[] args)
+        {
+        int firstNumber =0;
+        int secondNumber=0;
+        int result=0;   
+        Console.Write("please enter the first Number");
+        firstNumber=int.Parse(Console.ReadLine());
+ 
+        Console.Write("please enter the second Number");
+        secondNumber=int.Parse(Console.ReadLine());
+      
+        result = firstNumber - secondNumber;
+        
+        Console.Write("subtraction result is"+result);
+        }
+    }
+}
+    
+
+Output
+
+
+PS C:\Users\HOMEPC\subtraction> dotnet run
+please enter the first Number30
+please enter the second Number10
+subtraction result is20
+PS C:\Users\HOMEPC\subtraction> 
