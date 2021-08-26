@@ -1,0 +1,36 @@
+using System;
+
+namespace multiplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {   int firstnumber =0;
+            int secondnumber =0;
+            int thirdnumber =0;
+            int result =0;
+            
+            Console.Write("please enter the first number");
+            firstnumber=int.Parse(Console.ReadLine());
+
+            Console.Write("please enter the second Number");
+            secondnumber=int.Parse(Console.ReadLine());
+
+            Console.Write("please enter the third Number");
+            thirdnumber=int.Parse(Console.ReadLine());
+            
+            result=firstnumber*secondnumber*thirdnumber;
+
+            Console.Write("Multiplication result is :"+result);
+
+        }
+    }
+}
+
+Output:
+
+PS C:\Users\HOMEPC\multiplication> dotnet run
+please enter the first number10
+please enter the second Number10
+please enter the third Number10
+Multiplication result is :1000
