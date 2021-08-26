@@ -1,0 +1,31 @@
+using System;
+
+namespace division
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        int firstNumber =0;
+        int secondNumber=0;
+        int result=0;   
+        Console.Write("please enter the first Number");
+        firstNumber=int.Parse(Console.ReadLine());
+ 
+        Console.Write("please enter the second Number");
+        secondNumber=int.Parse(Console.ReadLine());
+      
+        result = firstNumber - secondNumber;
+        
+        Console.Write("division result is"+result);
+        }
+    }
+}
+
+Output
+
+PS C:\Users\HOMEPC\division> dotnet run
+please enter the first Number20
+please enter the second Number10
+division result is10
+PS C:\Users\HOMEPC\division>
